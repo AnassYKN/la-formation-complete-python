@@ -1,7 +1,12 @@
-# Remplacer le nombre mystère par un nombre aléatoire
-nombre_mystere = 7
+import random
+#  Remplacer le nombre mystère par un nombre aléatoire
+a = random.randrange(99)
+b = random.randrange(99)
 
-nombre_utilisateur = input("Quel est le nombre mystère ? ")
 
-resultat = int(nombre_utilisateur) == nombre_mystere
-print(resultat)
+if b > a:
+    print("Le nombre b est plus grand que le nombre a.")
+elif a > b:
+    print("Le nombre a est plus grand que le nombre b.")
+else: 
+    print("Le nombre a et b sont égaux.")
