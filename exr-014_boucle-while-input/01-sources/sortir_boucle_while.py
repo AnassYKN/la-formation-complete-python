@@ -4,4 +4,9 @@
 continuer = "o"
 while continuer == "o":
     print("On continue !")
-    input("Voulez-vous continuer ? o/n ")
+    test = input("Voulez-vous continuer ? o/n ")
+    if (test == "o" or test == "Oui" or test == "OUI"):
+        break
+    else:
+        continue
+    
