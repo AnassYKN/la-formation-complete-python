@@ -8,3 +8,13 @@ t
 y
 P
 """
+
+import pprint as p
+python = list("Pyhton")
+nothyp = []
+for i in python:
+    nothyp.append(python[len(python) - python.index(i)-1])
+print(*nothyp, sep = "\n") 
+
+
+
