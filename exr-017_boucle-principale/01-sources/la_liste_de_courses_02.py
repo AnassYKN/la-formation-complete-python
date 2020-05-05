@@ -18,3 +18,14 @@ Choisissez une option:
 \t4: Vider la liste
 \t5: Terminer
 """
+
+liste = list(range(1,6))
+resulat = 0
+
+
+while (resulat != 5):
+    resulat = int(input(affichage))
+
+
+
+

@@ -23,3 +23,14 @@ option = "0"
  
 while option != "5":
     option = input(affichage)
+    if(int(option) == 1):
+        element = input("Ecrire l'element à ajouter\n")
+        liste_de_courses.append(element)
+    elif(int(option) == 2):
+        element = input("Ecrire l'element à enlever\n")
+        if element in liste_de_courses:
+            liste_de_courses.remove(element)
+        else:
+            print("Element not found")
+        
+    

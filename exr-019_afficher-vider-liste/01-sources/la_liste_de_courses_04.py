@@ -1,5 +1,6 @@
 import os
 import json
+import pprint
  
 dossier_courant = os.path.dirname(__file__)
 chemin_liste = os.path.join(dossier_courant, "liste.json")
@@ -30,3 +31,9 @@ while option != "5":
         item_a_retirer = input("Entrez le nom de l'élément à enlever: ")
         if item_a_retirer in liste_de_courses:
             liste_de_courses.remove(item_a_retirer)
+    elif option == "3":
+        print(*liste_de_courses, sep = "\n")
+    elif option == "4":
+        liste_de_courses.clear()
+    
+    
