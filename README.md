@@ -1,2 +1,2 @@
-# La Formation Complète Python
-Ce repo Github contient toutes les sources du cours [**La Formation Complète Python**](https://www.docstring.fr/formations/la-formation-complete-python/).
+# Complete Python Training
+This Github repo contains all the sources of the course [** La Formation Complète Python **] (https://www.docstring.fr/formations/la-formation-complete-python/).
